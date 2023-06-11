@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Vegan Pizza </title>
+<script src="JS\one_page_website.js"></script>
+<link rel="stylesheet" href="CSS\one_page_website.css"/>
+</head>
+<!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="column">
+      <img src="Vegan Pizza image 1 size 1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="Vegan Pizza image 2 size 1.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="Vegan Pizza image 3 size 1.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="Vegan Pizza image 1 size 2.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="Vegan Pizza image 2 size 2.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="Vegan Pizza image 3 size 2.jpg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="Vegan Pizza image 1 size 1.jpg" onclick="currentSlide(1)" alt="Vegan Pizza">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="Vegan Pizza image 2 size 1.jpg" onclick="currentSlide(2)" alt="Vegan Pizza">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="Vegan Pizza image 3 size 1.jpg" onclick="currentSlide(3)" alt="Vegan Pizza">
+      </div>
+      
+    </div>
+  </div>
+<h1> Vegan Pizza </h1>
+<nav> <a href="#Vegan Pizza pictures" id="link"><li><strong>Vegan Pizza pictures</strong></li></a>
+<p> Here you will get not only the best Pizza ever but the best Pizza ever is also Vegan and you will love it! </p>
+<section> <div id= "Vegan Pizza pictures"> <img src="Vegan Pizza image 1.jpg" width="100" height="100"> </div> </section>
+<img src="Vegan Pizza image 2.jpg" width="100" height="100">
+<img src="Vegan Pizza image 3.jpg" width="100" height="100">
+<p> What pizza would you like? </p>
+<form action="" method="post">
+<input class="Order" type="text" value="What size Pizza would you like">
+<br>
+</br>
+<input class="Order" type="text" value="How many toppings would you like">
+<br>
+</br>
+<input type="submit" value="Order my pizza">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZOGSejnBObc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<footer> Vegan Pizza </footer>
+</html>
